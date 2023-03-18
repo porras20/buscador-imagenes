@@ -5,8 +5,11 @@ const Cards = ({datos}) => {
          : 
         datos.map(dato => (
             <div className="card" key={dato.id}>
+                <img src={dato.urls.small} alt="" />
                 <div>
-                    <img src={dato.urls.small} alt="" />
+                    <h2>Photo by: {dato.user.name}.</h2>
+                    <p>{dato.alt_description}</p>
+                    <a href={dato.links.download}><button>Descargar</button></a>
                 </div>
             </div>
         ))}
