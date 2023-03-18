@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Cards from './components/Cards'
 import Formulario from './components/Formulario'
+import Header from './components/Header'
 
 function App() {
   const [search, setSearch] = useState('');
@@ -36,6 +37,7 @@ function App() {
   
   return (
     <>
+      <Header />
       <Formulario busqueda={busqueda}/>
       <Cards datos={datos}/>
     </>

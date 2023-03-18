@@ -83,6 +83,23 @@
     cursor: pointer;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+.menu li{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.menu .icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
 @media (width <= 740px) {
     .card{
         flex-direction: column;
