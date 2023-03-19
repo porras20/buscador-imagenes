@@ -9,7 +9,6 @@ function App() {
   const [search, setSearch] = useState('');
   const [datos, setDatos] = useState([]);
   const [url, setUrl] = useState('https://api.unsplash.com/photos/?client_id=fb-RZ5I90TondzzVbKvLKNMia-aJaqIpujJ4XB0QC6o')
-  
 
   useEffect(() => {
 
