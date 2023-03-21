@@ -161,18 +161,26 @@
         transition: 0.3 ease all;
     }
 
-.pagination {
+.container-pagination{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin: 20px 0;
-    }
-      
-    .pagination a {
-     color: #000;
+    margin-bottom: 1rem;
+    gap: 1rem;
+} 
+.pagination a{
+    color: #000;
     text-decoration: none;
     border: 1px solid #ccc;
     padding: 5px 10px;
     margin: 0 5px;
     border-radius: 5px;
+    transition: 0.3s ease;
+}
+.pagination a:hover{
+    color: #2C3333;
+}
+.total-page p{
+    font-size: 1rem;
+    color: #0000008f;
 }
