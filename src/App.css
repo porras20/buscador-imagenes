@@ -160,3 +160,19 @@
         display: flex;
         transition: 0.3 ease all;
     }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    }
+      
+    .pagination a {
+     color: #000;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
