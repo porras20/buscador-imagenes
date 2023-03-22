@@ -94,17 +94,28 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    transition: 0.3s ease all;
+    
 }
-
-.menu li:hover{
-   color: rgba(128, 128, 128, 0.694);
-}
-
 .menu .icon {
     font-size: 1.5rem;
     margin-right: 5px;
 }
+
+.menu a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease all;
+}
+
+.menu a:hover{
+    color: rgba(128, 128, 128, 0.694);
+ }
+ 
+.menu .active{
+    color: rgba(128, 128, 128, 0.694);
+}
+
+
 @media (width <= 740px) {
     .card{
         flex-direction: column;

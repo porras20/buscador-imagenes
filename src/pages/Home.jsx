@@ -1,7 +1,6 @@
-import Cards from '../components/Cards'
-import Formulario from '../components/Formulario'
-import Header from '../components/Header'
-import { Paginacion } from '../components/Paginacion'
+import Cards from '../components/Home/Cards'
+import Formulario from '../components/Home/Formulario'
+import { Paginacion } from '../components/Home/Paginacion'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 
@@ -39,7 +38,6 @@ export const Home = () => {
   }
     return ( 
     <>
-        <Header />
         <Formulario busqueda={busqueda}/>
         <Cards datos={datos}/>
         <Paginacion 
