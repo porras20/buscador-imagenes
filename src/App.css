@@ -305,3 +305,49 @@
 }
 
 /* Section contact */
+
+.banner-header{
+    width: 100%;
+    height: 150px;
+    background-image: url(../public/contactheader.jpeg);
+    background-size: cover;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 8rem;
+}
+.contact-title h2{
+    font-size: 2rem;
+}
+
+.contact-title p{
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.contact-container .form {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container .form label{
+    margin-bottom: 10px;
+}
+
+.contact-container .form input, select{
+    padding: 0.5rem 0;
+}
+
+.contact-container button{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+}
+

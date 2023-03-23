@@ -1,6 +1,8 @@
+import { ContactMain } from "../components/Contact/ContactMain";
+
 export const Contact = () => {
     return ( 
-        <h1>Contact</h1>
+        <ContactMain/>
      );
 }
  
