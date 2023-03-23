@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Formulario = ({busqueda}) => {
     const guardarBusqueda = e =>{
         busqueda(e.target.value)

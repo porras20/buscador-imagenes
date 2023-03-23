@@ -3,7 +3,8 @@ import { BiHomeAlt } from "react-icons/bi";
 import { BiPhotoAlbum } from "react-icons/bi";
 import { BiInfoCircle } from "react-icons/bi";
 import { BiPhone } from "react-icons/bi";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
 
     const [ open, setOpen ] = useState(false);
@@ -51,7 +52,6 @@ const Header = () => {
                             Contacto
                         </NavLink> 
                     </li>
-
                 </ul>
             </nav>
         </>
