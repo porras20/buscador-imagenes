@@ -19,6 +19,33 @@ export const AboutMain = () => {
                 <img src="../../img1.jpeg" alt="" />
             </div>
         </div>
+        <div className="section2">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <div className="section2-img">
+                <div className="section2-card">
+                    <img src="../../img2.jpeg" alt="" />
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Consequuntur suscipit magni 
+                    reiciendis id numquam ab tempora? At mollitia nam quidem.</p>
+                </div>
+                <div className="section2-card">
+                    <img src="../../img2.jpeg" alt="" />
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Consequuntur suscipit magni 
+                    reiciendis id numquam ab tempora? At mollitia nam quidem.</p>
+                </div>
+                <div className="section2-card">
+                    <img src="../../img2.jpeg" alt="" />
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Consequuntur suscipit magni 
+                    reiciendis id numquam ab tempora? At mollitia nam quidem.</p>
+                </div>
+                
+            </div>
+        </div>
         </>
      );
 }

@@ -271,3 +271,37 @@
     position: relative;
     bottom: 15px;
 }
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 2rem;
+}
+
+.section2 h2{
+    margin-bottom: 3rem;
+}
+
+.section2-img{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.section2 img{
+    width: 100%
+}
+
+.section2-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.section2-card h3{
+    margin: 1rem 0;
+}
+
+/* Section contact */
