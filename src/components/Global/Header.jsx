@@ -28,15 +28,7 @@ const Header = () => {
                             Home
                         </NavLink> 
                     </li>
-
-                    <li>
-                        <BiPhotoAlbum className="icon"/>
-                        <NavLink to="/photo" className={
-                        ({isActive}) => isActive ? "active" : ""}>
-                            Más fotos
-                        </NavLink>
-                    </li>
-
+                    
                     <li>
                         <BiInfoCircle className="icon"/>
                         <NavLink to="/about" className={
