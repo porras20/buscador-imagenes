@@ -402,3 +402,27 @@
       -webkit-transform: scale(1.0);
     }
   }
+
+
+  @media screen and (max-width: 480px) {
+    .container-form input{
+        width: 90%;
+    }
+  }
+
+  .buttonUp{
+    background-color: #a4e2d3;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 1rem 1rem 0;
+    cursor: pointer;
+  }

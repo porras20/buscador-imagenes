@@ -5,7 +5,7 @@ import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { Error404 } from './pages/Error404'
 import { Home } from './pages/Home'
-
+import ButtonUp from './components/ButtonUp'
 function App() {
   
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact />}> </Route>
         <Route path='/*' element={<Error404 />}> </Route>
       </Routes>
+      <ButtonUp />
     </BrowserRouter>
         
     </>
